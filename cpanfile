@@ -1,2 +1,2 @@
-requires 'CGI', '== 4.35';
-requires 'Mojolicious', '>= 7.48';
+requires 'CGI', '4.35';
+requires 'Mojolicious', '7.48';
