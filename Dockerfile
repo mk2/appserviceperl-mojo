@@ -28,7 +28,7 @@ COPY ./cpanfile /home/cpan/cpanfile
 # installing cpanm inside /home/cpan to insall modules listed in cpanfile
 RUN apt-get install -y curl \
    && cd /home/cpan \
-   && curl -LO https://cpanmin.us \
+   && curl -LO http://xrl.us/cpanm \ 
    && apt-get install -y libhtml-parser-perl \
    && perl cpanm --force --installdeps .
 
